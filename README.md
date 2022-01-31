@@ -1,12 +1,13 @@
 # Test technique 1 de HeyTeam
 
-L'objectif est de restituer le tableau js ( var values ) ci-dessous en html (dans une <table> de 3 colonnes )
+L'objectif est de restituer le tableau js ( var values ) ci-dessous en html (dans une table de 3 colonnes )
 
 | 180 	| 195 	| 26  	|
+|-----	|-----	|-----	|
 | 161 	| 31  	| 98  	|
 | 102 	| 102 	| 102 	|
 | ... 	| ... 	| ... 	|
-
+  
 puis de colorer les cellules en appliquant ces 2 règles :
 
 1/ Mettre en rouge les valeurs inférieures à 100 sur l'ensemble des colonnes. Chaque nombre peut être coloré une seule fois en le priorisant sur les colonnes de droite à gauche.
